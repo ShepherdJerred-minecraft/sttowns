@@ -1,0 +1,55 @@
+{
+  "plots": {
+    "normal": 10,
+    "center": 1
+  },
+  "ranks": {
+    "members": {
+      "flags": [
+        "MEMBER",
+        "PERMANENT"
+      ],
+      "permissions": {
+        "INVITE": true
+      }
+    },
+    "assistants": {
+      "flags": [
+        "PERMANENT",
+        "UNKICKABLE"
+      ],
+      "permissions": {
+        "BYPASS_PLOTS": true,
+        "CLAIM": true,
+        "INVITE": true,
+        "KICK": true,
+        "SET_MOTD": true,
+        "SET_NAME": true,
+        "SET_OPEN": true,
+        "UNCLAIM": true
+      }
+    },
+    "owner": {
+      "flags": [
+        "IMMUTABLE_PERMISSIONS",
+        "OWNER",
+        "PERMANENT",
+        "UNKICKABLE",
+        "REQUIRED"
+      ],
+      "permissions": {
+        "BYPASS_PLOTS": true,
+        "CLAIM": true,
+        "DESTROY": true,
+        "INVITE": true,
+        "JOIN_NATION": true,
+        "KICK": true,
+        "SET_MOTD": true,
+        "SET_NAME": true,
+        "SET_OPEN": true,
+        "SET_RANK": true,
+        "UNCLAIM": true
+      }
+    }
+  }
+}

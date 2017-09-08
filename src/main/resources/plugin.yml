@@ -1,0 +1,14 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Jerred Shepherd (RiotShielder)
+website: http://shepherdjerred.com/
+
+soft-depend: [Vault]
+
+main: com.shepherdjerred.sttowns.Main
+
+permissions:
+    plugin.permission:
+        description: Description
+        default: true
